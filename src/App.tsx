@@ -1,9 +1,16 @@
-import { useState } from 'react'
+import {Button} from "@/components/ui/button";
+import SliderDemo from "@/components/ui/slider/slider";
+
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return <>hello</>
+  return (
+      <div>
+        <Button as={'a'} href={'https://google.com'}>hello</Button>
+          <SliderDemo/>
+      </div>
+  )
 }
 
 export default App
